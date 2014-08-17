@@ -1,0 +1,8 @@
+name: OreUtilities
+version: 0.1-Acme
+author: AcmeProject
+main: net.poweredbyhate.oreutilities.OreUtilities
+commands:
+    vdrop:
+        usage: /<command>
+        description: Enable/Disable plugin

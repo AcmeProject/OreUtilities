@@ -1,0 +1,36 @@
+#COAL_ORE: -** TYPE OF ORE
+#  ITEMREWARD: '1|10'  -** "ITEMID|AMOUNT"
+#  CHANCE: 35     -** Percent that they will receive the prize.
+#  MESSAGE: '&b%OreUser &chas just found &b5 STONE &cas they were mining!' -** Message that will be broadcasted
+
+Broadcast: true
+EnableOnStart: true
+
+COAL_ORE:
+  ITEMREWARD: '1|10'
+  CHANCE: 35
+  MESSAGE: '&b%OreUser &chas just found &b5 STONE &cas they were mining!'
+GOLD_ORE:
+  ITEMREWARD: '3|10'
+  CHANCE: 30
+  MESSAGE: '&b%OreUser &chas just found &b10 DIRT &cas they were mining!'
+IRON_ORE:
+  ITEMREWARD: '54|12'
+  CHANCE: 25
+  MESSAGE: '&b%OreUser &chas just found &b12 CHEST &cas they were mining!'
+REDSTONE_ORE:
+  ITEMREWARD: '344|16'
+  CHANCE: 20
+  MESSAGE: '&b%OreUser &chas just found &b16 EGG &cas they were mining!'
+LAPIS_ORE:
+  ITEMREWARD: '4|32'
+  CHANCE: 15
+  MESSAGE: '&b%OreUser &chas just found &b32 cobblestone &cas they were mining!'
+DIAMOND_ORE:
+  ITEMREWARD: '271|1'
+  CHANCE: 10
+  MESSAGE: '&b%OreUser &chas just found &b1 WOOD_AXE &cas they were mining!'
+EMERALD_ORE:
+  ITEMREWARD: '279|1'
+  CHANCE: 5
+  MESSAGE: '&b%OreUser &chas just found &b1 DIAMOND_AXE &cas they were mining!'
